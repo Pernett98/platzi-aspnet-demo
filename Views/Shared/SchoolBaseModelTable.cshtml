@@ -1,0 +1,21 @@
+<table class="table table-dark table-hover table-sm">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Id</th>
+    </tr>
+  </thead>
+  <tbody>
+  @foreach(var data in Model)
+  {
+    <tr>
+      <td>
+        @data.Name
+      </td>
+      <td>
+        @data.Id
+      </td>
+    </tr>
+  }
+  </tbody>
+</table>
